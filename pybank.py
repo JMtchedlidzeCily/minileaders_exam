@@ -33,8 +33,8 @@ quit = False
 
 while not quit:
     # Main menu
-    print("\nMenu:")
-    choice = input(f"Hi, {name}! Please pick one of the following actions:\n1. See balance\n2. Withdraw cash\n3. Deposit cash\n4. Create a new account\n5. Log into another account\n6. Quit\n")
+    print("Menu:")
+    choice = input(f"Hi, {name}! Please pick one of the following actions:1. See balance 2. Withdraw cash 3. Deposit cash 4. Create a new account 5. Log into another account 6. Quit ")
 
     if choice == "1":
         print(f"You have ${accounts[0]['balance']} in your account.")
